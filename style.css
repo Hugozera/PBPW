@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(54, 97, 73, 0.288);
+    background-attachment: fixed; 
+    background-size: 100%;
+    background-image: url("imagens/coffe.gif");
+}
+
+
+.table{
+    border-collapse: collapse;
+    margin: 0 370px 30px 370px;
+    font-size: 25px;
+    text-size-adjust: 20px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+.table thead tr{ 
+    border: 1px solid black;
+    background-color: #0aebbe;
+    text-align: center;
+    font-weight: bold;
+}
+.table th, table td{
+    border-left: 1px solid black;
+    padding: 12px 15px;
+}
+.table tbody tr{
+    border: 1px solid black;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .titulos h2{
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+
+  .titulos h3{
+      text-transform: capitalize;
+      font-size: 50px;
+      margin: 20px;
+  }
+  .texto p{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+.comeback a{
+    margin: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.comeback {
+    background-color: bisque;
+    padding: -40px;
+    margin: 50px 500px 0 500px;
+    width: 280px;
+    border: 1px solid black;
+}
+/* CSS DA PAGINA DE PBPW ↑ */
+
+.tablepoo{
+    border-collapse: collapse;
+    margin: 0 370px 30px 370px;
+    font-size: 25px;
+    text-size-adjust: 20px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+.tablepoo thead tr{ 
+    border: 1px solid black;
+    background-color: #0aebbe;
+    text-align: center;
+    font-weight: bold;
+}
+.tablepoo th, table td{
+    border-left: 1px solid black;
+    padding: 12px 15px;
+}
+.tablepoo tbody tr{
+    border: 1px solid black;
+}
+
+.tablepoo tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .tablepoo tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .tablepoo tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .titulospoo h2{
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+
+  .titulospoo h3{
+      text-transform: capitalize;
+      font-size: 50px;
+      margin: 20px;
+  }
+  .textopoo p{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+.comebackpoo a{
+    margin: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.comebackpoo {
+    background-color: bisque;
+    padding: -40px;
+    margin: 50px 500px 0 500px;
+    width: 280px;
+    border: 1px solid black;
+}
+/* CSS DA PAGINA DE  POO ↑*/
+
+.tablepbd{
+    border-collapse: collapse;
+    margin: 0 370px 30px 370px;
+    font-size: 25px;
+    text-size-adjust: 20px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+.tablepbd thead tr{ 
+    border: 1px solid black;
+    background-color: #0aebbe;
+    text-align: center;
+    font-weight: bold;
+}
+.tablepbd th, table td{
+    border-left: 1px solid black;
+    padding: 12px 15px;
+}
+.tablepbd tbody tr{
+    border: 1px solid black;
+}
+
+.tablepbd tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .tablepbd tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .tablepbd tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .titulospbd h2{
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+
+  .titulospbd h3{
+      text-transform: capitalize;
+      font-size: 50px;
+      margin: 20px;
+  }
+  .textopbd p{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+.comebackpbd a{
+    margin: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.comebackpbd {
+    background-color: bisque;
+    padding: -40px;
+    margin: 50px 500px 0 500px;
+    width: 280px;
+    border: 1px solid black;
+}
+/* CSS DA PAGINA DE PBD ↑*/
+
+
+.img {
+    margin: 0 500px 30px 500px;
+}
+
+.titulosatv h1, .titulosatv h2{
+        font-size: 50px;
+        margin-left: 50px;
+}
+
+.textoatv p{
+        font-size: 20px;
+        text-align: left;
+        margin: 20px;
+}
+
+.textoatv ul li {
+        font-size: 25px;
+        margin: 20px 0 20px 40px;
+}
+
+.textoatv h2{
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+/* css da pagina atividade2 ↑*/
+
+.imgind{
+    margin-left: 500px;
+}
+
+.textoind{
+    margin-left: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.titulosind p{
+    margin: 30px;
+    text-shadow: 2px 1px 3px black;
+    font-size: 40px; 
+    
+}
+
+
+.bodyind{
+   background-attachment: fixed; 
+   background-size: 100%;
+   background-image: url("imagens/coffe.gif");
+
+}
+    .bodyi{
+        background: rgba(36, 223, 120, 0.288);
+    }
+    .comebackind a{
+        margin: 70px 0 0 0;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .button h1, th{
+        font-size: 30px;
+        width: 400px;
+        text-align: center;
+        background-color: rgba(92, 97, 97, 0.048);
+        float:right;
+        position: absolute;
+        margin: -200px 20px 0 950px ;
+
+    }
+    .contato{position:absolute;height:auto;width:350px;border:1px solid #000;border-radius:20px;text-align:center;margin-top:10px;margin-left:40%;font-size:12px
+    }
+    .contato h1{font-size:30px;margin:10px}.contato .form_nome,.contato .form_email{margin:10px
+    }
+    .contato .form_msg{margin:10px}.contato .form_msg label{text-transform:uppercase
+    }
+    .contato .btn_form{font-size:12px;font-weight:bold;padding:15px;border:1px solid #000;border-radius:10px;margin:10px 0 10px 0;background-color:#fff
+    }
+    .contato .btn_form:hover{background-color:#27ae60;color:#fff;transition:1s
+    }
+
+.NAV{
+    background-color: rgb(56, 42, 42);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: relative;
+    
+}
+
+.NAV a{
+    text-decoration: none;
+    display: block;
+    color: rgb(191, 243, 108);
+    padding: 20px 5px;
+    text-decoration: none;
+
+}
+
+.NAV a:hover{
+    color: #fff;
+     background-color: #27ae60;
+}
+
+.NAV ul{
+   
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+input[type="checkbox"]:checked ~ .NAV{
+
+    transform: translateX(350px);
+}
+
+input[type="checkbox"]{
+    display: none;
+    
+}
+label{
+    background-color: rebeccapurple;
+    top: 198px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
