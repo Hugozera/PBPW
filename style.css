@@ -341,5 +341,24 @@ label{
     z-index: 1;
 
 }
-
+.NAV li{
+    list-style: none;
+    font-family: monospace;
+    display: block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0,5;
+}
+.NAV li ul{
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+    left: 0;
+    display: none;
+    box-shadow: black;
+}
 
